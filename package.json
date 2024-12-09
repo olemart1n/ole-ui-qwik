@@ -1,5 +1,5 @@
 {
-  "name": "ole-ui-react",
+  "name": "ole-ui-qwik",
   "version": "0.0.1",
   "description": "Qwik headless components",
   "main": "./lib/index.qwik.mjs",
