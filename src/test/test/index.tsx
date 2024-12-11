@@ -1,7 +1,8 @@
 import { component$, useStore } from "@builder.io/qwik";
-import * as Chat from "../chat";
+import { Chat, type ChatMessageProps } from "../../components/chat";
 export const Test = component$(() => {
-  const messages = useStore<Chat.ChatMessage[]>([]);
+  
+  const messages = useStore<ChatMessageProps[]>([]);
   const clientId = "123";
   const clientUsername = "Spiderman";
   return (

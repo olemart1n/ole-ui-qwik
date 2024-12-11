@@ -7,10 +7,10 @@ import {
 } from "@builder.io/qwik";
 import { ChatContext, type ChatContextProps } from "./context";
 
-import type { ChatMessage } from "./types";
+import type { ChatMessageProps } from "./types";
 
 export interface ChatRootProps {
-  messages: ChatMessage[];
+  messages: ChatMessageProps[];
   clientId: string;
   clientUsername: string;
 }

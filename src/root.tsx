@@ -1,4 +1,4 @@
-import { Test } from "./components/test";
+import { Test } from "./test/test";
 import "./global.css"
 export default () => {
   return (

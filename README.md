@@ -1,12 +1,13 @@
 # Qwik Component Library
 
-```npm install ole-ui-react````
+```npm install ole-ui-qwik```
 
 * Chat
-```import * as Chat from "ole-ui-react"```
+```import * as Chat from "ole-ui-qwik"```
 
 ### Example using the chat component, styled with tailwind
-```
+
+```ts
 export default component$(() => {
   const messages = useStore<Chat.ChatMessage[]>([]);
   const clientId = "123";
