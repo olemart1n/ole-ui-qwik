@@ -1,6 +1,6 @@
 import { component$, useSignal } from "@builder.io/qwik";
 
-export const Counter = component$(() => {
+export const Test = component$(() => {
   const count = useSignal(0);
 
   return (
