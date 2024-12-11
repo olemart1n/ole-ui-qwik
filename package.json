@@ -1,6 +1,6 @@
 {
   "name": "ole-ui-qwik",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Qwik headless components",
   "main": "./lib/index.qwik.mjs",
   "qwik": "./lib/index.qwik.mjs",
