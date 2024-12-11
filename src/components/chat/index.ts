@@ -5,7 +5,7 @@ import { ChatMessages as Messages} from "./chat-messages";
 import { ChatInput as Input} from "./chat-input";
 
 import {ChatContext} from './context'
-import type {ChatMessageProps} from "./types";
+import { type ChatMessageProps} from "./types";
 import { type ChatContextProps } from "./context";
 
 

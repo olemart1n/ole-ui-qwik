@@ -1,8 +1,8 @@
 import { createContextId, Signal } from "@builder.io/qwik";
-import { ChatMessage } from "./types";
+import { ChatMessageProps } from "./types";
 
 export interface ChatContextProps {
-  messages: ChatMessage[];
+  messages: ChatMessageProps[];
   clientId: string;
   clientUsername: string;
   messageEndRefDiv: Signal<HTMLDivElement> | undefined;
