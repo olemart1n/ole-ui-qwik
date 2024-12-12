@@ -1,6 +1,6 @@
 {
   "name": "ole-ui-qwik",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Qwik headless components",
   "main": "./lib/index.qwik.mjs",
   "qwik": "./lib/index.qwik.mjs",
@@ -55,6 +55,9 @@
     "vite-tsconfig-paths": "^4.2.1"
   },
   "np": {
-    "contents": ["lib", "lib_types"]
+    "contents": [
+      "lib",
+      "lib_types"
+    ]
   }
 }
