@@ -9,7 +9,7 @@ import { ChatContext, type ChatContextProps } from "./context";
 
 import type { ChatMessageProps } from "./types";
 
-export interface ChatRootProps {
+export type ChatRootProps = { 
   messages: ChatMessageProps[];
   clientId: string;
   clientUsername: string;

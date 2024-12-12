@@ -9,5 +9,5 @@ import { type ChatMessageProps} from "./types";
 import { type ChatContextProps } from "./context";
 
 
-export const Chat = {Root, Form, Message, Messages, Input, ChatContext}
-export type {ChatContextProps, ChatMessageProps}
+const Chat = {Root, Form, Message, Messages, Input, ChatContext}
+export {ChatContextProps, ChatMessageProps, Chat}

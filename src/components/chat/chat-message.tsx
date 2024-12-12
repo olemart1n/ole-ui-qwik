@@ -1,6 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 
-export interface ChatMessageProps {
+export type ChatMessageProps = {
   senderUsername: string;
   message: string;
   isSender: boolean;

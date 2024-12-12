@@ -1,7 +1,7 @@
 import { createContextId, Signal } from "@builder.io/qwik";
 import { ChatMessageProps } from "./types";
 
-export interface ChatContextProps {
+export type ChatContextProps = {
   messages: ChatMessageProps[];
   clientId: string;
   clientUsername: string;
